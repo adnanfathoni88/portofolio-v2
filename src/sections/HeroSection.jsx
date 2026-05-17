@@ -20,10 +20,10 @@ const contactWa = () => {
 
 const HeroSection = () => (
   <section className="bg-ink-deep pt-32" id="about">
-    <Container className="flex flex-col items-start text-center">
+    <Container className="flex flex-col items-start text-start">
       <h1 className="text-4xl font-semibold text-on-dark mb-4 max-w-4xl">{name}</h1>
       <p className="text-xl text-on-dark-muted mb-4">{role}</p>
-      <p className="text-md mb-10 max-w-2xl text-on-dark-muted">
+      <p className="text-md mb-10 max-w-2xl text-on-dark-muted text-start">
         {headline}
       </p>
       <div className="flex flex-wrap justify-center gap-4">
